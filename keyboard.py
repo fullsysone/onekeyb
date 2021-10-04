@@ -15,13 +15,13 @@ class Terkey:
   def banner(self):
       os.system('clear')
       print(f'{c}Terkey {a}[{c}Termux Key{a}]'.center(68))
-      print(f'{a}Karjok Pangesty'.center(53))
+      print(f'{a}Hansaplast'.center(53))
       print("".join([i for i in "\n"*2]))
 
   # Loading animation
   def animate(self,params):
     self.banner()
-    print(f"{c}Setting up your keys..")
+    print(f"{c}Setting up your keyb..")
     t = td(target=self.setup,args=(params,))
     t.start()
     while t.is_alive():
@@ -67,22 +67,22 @@ class Terkey:
     print(f"""
     {a}W E L C O M E  !{c}
 
-    This is Terkey, the Termux Key shortcut !
-    A program from {a}Karjok Pangesty{c} for you.
+    This is Terkey, the Termux Keyb shortcut !
+    A program from {a}Hansaplast{c} for you.
     This tool is only for Termux app and absolutely FREE !
 
     You can find all default keys in this program at
     {a}https://wiki.termux.com/wiki/Touch_Keyboard{c}
 
     Want to chat with me ? You can find me on
-    * Telegram  : {a}https://t.me/om_karjok{c}
-    * Facebook  : {a}https://fb.me/om.karjok{c}
-    * Instagram : {a}https://ig.me/karjok.pangesty{c}
-    * Blog      : {a}https://www.karjokpangesty.com{c}
-    * Youtube   : {a}https://youtube.com/c/KarjokPangesty{c}
+    * Telegram  : {a}don't{c}
+    * Facebook  : {a}https://fb.me/muhammedfartheen{c}
+    * Instagram : {a}https://ig.me/mnslaaheen{c}
+    * Blog      : {a}https://don't{c}
+    * Youtube   : {a}https://don't{c}
 
     And if you want to give me some money, you can visit
-    {a}https://trakteer.id/karjok-pangesty{c}
+    {a}hub WA 083801442391{c}
 
     """
     )
@@ -143,4 +143,4 @@ if __name__=='__main__':
   terkey = Terkey()
   terkey.start()
 # ini cuma shortcut buat bantu para nub
-# karjok pangesty
+# Hansaplast
